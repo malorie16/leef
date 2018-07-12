@@ -1,0 +1,302 @@
+@font-face {
+  font-family: 'Friends';
+  src: url("./fonts/FRIENDS.ttf");
+}
+@font-face {
+  font-family: 'Jellyka';
+  src: url("./fonts/Jellyka_Estrya_Handwriting.ttf");
+}
+@font-face {
+  font-family: 'Luna';
+  src: url("./fonts/Luna.ttf");
+}
+@font-face {
+  font-family: 'Luna Bar';
+  src: url("./fonts/LUNABAR_.ttf");
+}
+
+
+html {
+  background-image: url('./img/mod3background-01.svg');
+  background-size: cover;
+
+}
+
+body {
+  text-align: center;
+}
+
+
+
+label {
+  color: rgb(83, 168, 168);
+  font-family: 'Jellyka';
+  font-size: 130px;
+}
+
+#welcome {
+  text-align: center;
+  padding-top: 170px;
+  width: 100%;
+
+
+}
+
+#name-input {
+  background-color: inherit;
+  font-family: 'Jellyka';
+  font-size: 100px;
+  caret-color: rgb(153, 163, 163);
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-color: rgb(83, 168, 168);
+  padding: 0 25px;
+  outline: none;
+  text-align: center;
+
+}
+#feeling {
+  text-align: center;
+  padding-top: 100px;
+}
+
+#feel-input {
+  background-color: inherit;
+  font-family: 'Jellyka';
+  font-size: 100px;
+  caret-color: rgb(153, 163, 163);
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-color: rgb(83, 168, 168);
+  padding: 0 25px;
+  outline: none;
+  text-align: center;
+
+}
+
+.submit-button {
+  background-image: url('./img/mod3button.svg');
+  background-color: inherit;
+  background-size: cover;
+  height: 125px;
+  width: 125px;
+  outline: none;
+  border: none;
+
+}
+
+.choose {
+  font-family: 'Jellyka';
+  padding-top: 30px;
+  font-size: 130px;
+  color: rgb(83, 168, 168);
+  font-weight: lighter;
+}
+
+span {
+  padding: 50px;
+  padding-top: 50px;
+}
+
+.meh-span {
+  /* text-align: center; */
+  color: rgb(104, 162, 87);
+  font-size: 30px;
+  font-family: 'Luna Bar';
+
+}
+
+.radiant-span {
+  /* text-align: center; */
+  color: rgb(207, 198, 88);
+  font-size: 30px;
+  font-family: 'Luna';
+}
+
+.glum-span {
+  /* text-align: center; */
+  color: rgb(135, 149, 142);
+  font-size: 30px;
+  font-family: 'Friends';
+  /* padding-left: 300px; */
+  margin: 0 auto;
+  display: inline;
+
+}
+
+.radiant1 {
+  position: absolute;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    font-family: 'Luna';
+    font-size: 70px;
+}
+
+.radiant2 {
+  position: absolute;
+    top: 115%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    font-family: 'Luna';
+    font-size: 70px;
+}
+
+.radiant3 {
+  position: absolute;
+    top: 220%;
+    left: 68%;
+    transform: translate(-50%, -50%);
+    font-family: 'Luna';
+    font-size: 70px;
+}
+
+.radiant4 {
+  /* hopefully curved */
+  position: absolute;
+    top: 305%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Luna';
+    font-size: 70px;
+
+}
+
+.radiant5 {
+  position: absolute;
+    top: 470%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Luna';
+    font-size: 70px;
+}
+
+.glum1 {
+  font-family: 'Friends';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+
+
+}
+.glum2 {
+  font-family: 'Friends';
+  top: 100%;
+  left: 40%;
+  position: absolute;
+  font-size: 30px;
+  transform: translate(-50%, -50%);
+
+}
+.glum3 {
+  font-family: 'Friends';
+  font-size: 25px;
+  top: 245%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+
+}
+
+
+.glum4 {
+  font-family: 'Friends';
+  transform: translate(-50%, -50%);
+  position: absolute;
+  font-size: 30px;
+  top: 310%;
+  left: 65%;
+}
+.glum5 {
+  font-family: 'Friends';
+  position: absolute;
+  transform: translate(-50% -50%);
+  font-size: 26px;
+  top: 405%;
+  left: 55%;
+
+}
+
+.meh1 {
+  font-family: 'Luna Bar';
+  position: absolute;
+  transform: translate(-50% -50%);
+  top: 25%;
+  left: 40%;
+  font-size: 70px;
+
+
+}
+.meh2 {
+  font-family: 'Luna Bar';
+  position: absolute;
+  transform: translate(-50% -50%);
+  top: 130%;
+  left: 55%;
+  font-size: 70px;
+
+
+
+
+}
+.meh3 {
+  font-family: 'Luna Bar';
+  position: absolute;
+  transform: translate(-50% -50%);
+  top: 245%;
+  left: 45%;
+  font-size: 70px;
+
+
+
+}
+.meh4 {
+  font-family: 'Luna Bar';
+  position: absolute;
+  transform: translate(-50% -50%);
+  top: 310%;
+  left: 15%;
+  font-size: 70px;
+
+
+
+
+}
+.meh5 {
+  font-family: 'Luna Bar';
+  position: absolute;
+  transform: translate(-50% -50%);
+  left:40%;
+  top: 360%;
+  font-size: 70px;
+
+
+}
+
+#user-label {
+  font-family: 'Luna';
+  font-size: 20px;
+}
+
+#allUsers {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-top: 10px;
+
+}
+
+.user-list {
+  font-family: 'Luna';
+  font-size: 12px;
+}
+
+#user-label {
+  color: rgb(83, 168, 168);
+  font-family: 'Luna';
+  font-size: 20px;
+
+}
