@@ -21,7 +21,7 @@ class Adapter {
   }
 
   static updateUser(data) {
-    const baseUrl = `https://localhost:3000/users/${data.id}`
+    const baseUrl = `http://localhost:3000/users/${data.id}`
     const options = {
       method: 'PATCH',
       headers: {
@@ -34,7 +34,7 @@ class Adapter {
   }
 
   static getStory(id) {
-    const baseUrl = `https://localhost:3000/stories/${id}`
+    const baseUrl = `http://localhost:3000/stories/${id}`
     return fetch(baseUrl)
             .then(r => r.json())
   }
