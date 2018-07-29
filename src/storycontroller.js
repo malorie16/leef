@@ -10,15 +10,4 @@ class StoryController {
    const div = document.querySelector('#form')
    div.innerHTML += form
  }
-
-
-
-  // static renderWelcome() {
-  //   const form = new User()
-  //   const div = document.querySelector('#form')
-  //   div.innerHTML += form
-  // }
-
-
-
 }

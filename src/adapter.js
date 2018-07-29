@@ -1,14 +1,14 @@
 class Adapter {
 
   static getUser(id) {
-    const baseUrl = `http://localhost:3000/users/${id}`
+    const baseUrl = `https://localhost:3000/users/${id}`
     return fetch(baseUrl)
             .then(r => r.json())
   }
 
   static createUser(data) {
     console.log(data);
-    const baseUrl = `http://localhost:3000/users`
+    const baseUrl = `https://localhost:3000/users`
     const options = {
       method: 'POST',
       headers: {
