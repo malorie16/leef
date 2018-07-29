@@ -1,3 +1,6 @@
+@import "animate.css";
+@import "img/meh1.svg";
+
 @font-face {
   font-family: 'Friends';
   src: url("./fonts/FRIENDS.ttf");
@@ -181,12 +184,23 @@ span {
   transform: translate(-50%, -50%);
   font-size: 30px;
 
-
 }
+
+.svg {
+  animation-name: tada;
+  animation-duration: 5000ms;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+
+
 .glum2 {
   font-family: 'Friends';
-  top: 100%;
-  left: 40%;
+  top: 110%;
+  left: 45%;
   position: absolute;
   font-size: 30px;
   transform: translate(-50%, -50%);
@@ -228,12 +242,25 @@ span {
   top: 25%;
   left: 40%;
   font-size: 70px;
-
-
 }
+
+/* .sec1 {
+  visibility: hidden;
+} */
+
+#green-outline1 {
+  animation-name: hinge;
+  animation-duration: 5000ms;
+  animation-timing-function: ease-in-out;
+  animation-delay: 0s;
+  animation-iteration-count: 1;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+
 .meh2 {
   font-family: 'Luna Bar';
-  position: absolute;
+  position: fixed;
   transform: translate(-50% -50%);
   top: 130%;
   left: 55%;
@@ -245,7 +272,7 @@ span {
 }
 .meh3 {
   font-family: 'Luna Bar';
-  position: absolute;
+  position: fixed;
   transform: translate(-50% -50%);
   top: 245%;
   left: 45%;
@@ -256,7 +283,7 @@ span {
 }
 .meh4 {
   font-family: 'Luna Bar';
-  position: absolute;
+  position: fixed;
   transform: translate(-50% -50%);
   top: 310%;
   left: 15%;
@@ -268,7 +295,7 @@ span {
 }
 .meh5 {
   font-family: 'Luna Bar';
-  position: absolute;
+  position: fixed;
   transform: translate(-50% -50%);
   left:40%;
   top: 360%;
@@ -277,7 +304,7 @@ span {
 
 }
 
-#user-label {
+.user-label {
   font-family: 'Luna';
   font-size: 20px;
 }

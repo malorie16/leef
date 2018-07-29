@@ -1,5 +1,9 @@
 function pageScroll() {
-    window.scrollBy(0,1);
+    window.scrollBy({
+    "behavior": "smooth",
+    "left": 0,
+    "top": 10
+});
     scrolldelay = setTimeout(pageScroll, 20);
 }
 
