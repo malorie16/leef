@@ -260,19 +260,16 @@ span {
 
 .meh2 {
   font-family: 'Luna Bar';
-  position: fixed;
+  position: absolute;
   transform: translate(-50% -50%);
   top: 130%;
   left: 55%;
   font-size: 70px;
 
-
-
-
 }
 .meh3 {
   font-family: 'Luna Bar';
-  position: fixed;
+  position: absolute;
   transform: translate(-50% -50%);
   top: 245%;
   left: 45%;
@@ -283,7 +280,7 @@ span {
 }
 .meh4 {
   font-family: 'Luna Bar';
-  position: fixed;
+  position: absolute;
   transform: translate(-50% -50%);
   top: 310%;
   left: 15%;
@@ -295,10 +292,10 @@ span {
 }
 .meh5 {
   font-family: 'Luna Bar';
-  position: fixed;
+  position: absolute;
   transform: translate(-50% -50%);
   left:40%;
-  top: 360%;
+  top: 361%;
   font-size: 70px;
 
 
